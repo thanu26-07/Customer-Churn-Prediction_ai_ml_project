@@ -85,3 +85,5 @@ The model successfully predicts whether a customer is likely to churn based on c
 * Compare Random Forest with other machine learning algorithms.
 * Perform hyperparameter tuning to improve prediction accuracy.
 * Add batch prediction for multiple customers.
+
+The purpose of this project is to predict whether a customer is likely to leave the bank based on customer information. Through this project, I gained hands-on experience in data preprocessing, machine learning model development, and performance evaluation using Scikit-learn.
