@@ -1,19 +1,21 @@
-                                                                                         Customer Churn Prediction using Random Forest Classifier
+# Customer Churn Prediction using Random Forest
 
-Project Objective:
+## Project Objective
 
 The objective of this project is to predict whether a bank customer is likely to leave the bank (churn) based on customer information such as credit score, age, balance, tenure, and account details. This helps businesses identify customers at risk and improve customer retention strategies.
 
-Dataset Used:
+---
 
-Dataset: Bank Customer Churn Dataset
-Total Records: 10,000
-Target Variable: Exited
+## Dataset Used
 
-0 → Customer Stayed
-1 → Customer Left
+* **Dataset:** Bank Customer Churn Dataset
+* **Total Records:** 10,000
+* **Target Variable:** Exited
 
-Features Used:
+  * 0 → Customer Stayed
+  * 1 → Customer Left
+
+### Features Used
 
 * Credit Score
 * Geography
@@ -29,7 +31,9 @@ Features Used:
 * Card Type
 * Points Earned
 
-Technologies Used:
+---
+
+## Technologies Used
 
 * Python
 * NumPy
@@ -38,11 +42,15 @@ Technologies Used:
 * Scikit-learn
 * Google Colab
 
-Machine Learning Algorithm:
+---
 
--->Random Forest Classifier:
+## Machine Learning Algorithm
 
-Steps Performed:
+* Random Forest Classifier
+
+---
+
+## Steps Performed
 
 1. Imported required libraries.
 2. Loaded the customer churn dataset.
@@ -56,14 +64,23 @@ Steps Performed:
 10. Visualized feature importance.
 11. Calculated churn probability for predictions.
 
-Model Performance:
+---
+
+## Model Performance
+
 * Algorithm: Random Forest Classifier
 * Accuracy: **86.5%**
 
-Project Outcome:
+---
+
+## Project Outcome
+
 The model successfully predicts whether a customer is likely to churn based on customer demographics and banking information. It can assist banks in identifying high-risk customers and improving customer retention strategies.
 
-Future Improvements:
+---
+
+## Future Improvements
+
 * Deploy the model as a web application using Streamlit.
 * Compare Random Forest with other machine learning algorithms.
 * Perform hyperparameter tuning to improve prediction accuracy.
