@@ -1,4 +1,4 @@
-# Customer Churn Prediction using Random Forest
+# Customer Churn Prediction using Random Forest Classifier
 
 ## Project Objective
 
